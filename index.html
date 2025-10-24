@@ -57,7 +57,15 @@
     /* Projects */
     .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
     .card { background: linear-gradient(180deg, rgba(255,255,255,0.04), rgba(255,255,255,0.02)); border: 1px solid rgba(255,255,255,0.08); border-radius: 14px; overflow: hidden; box-shadow: var(--shadow); display: flex; flex-direction: column; }
-    .thumb { height: 140px; background: radial-gradient(circle at 30% 20%, #fff2, #0000), linear-gradient(135deg, #34d399, #60a5fa); }
+    .thumb1 {
+  height: 140px;
+  background: url("https://i.postimg.cc/28yczngn/IMG-20250304-WA0008.jpg") center top 25%/cover no-repeat;
+}
+.thumb2 {
+  height: 140px;
+  background: url("https://i.postimg.cc/NFKstpXp/images.png") center/cover no-repeat;
+}
+
     .card .content { padding: 14px; }
     .card h3 { margin: 0 0 6px; font-size: 18px; }
     .chip { display: inline-block; font-size: 12px; padding: 6px 10px; border-radius: 999px; background: rgba(110, 231, 183, 0.15); border: 1px solid rgba(110,231,183,0.4); color: var(--text); margin-right: 6px; }
@@ -130,7 +138,7 @@
         <article class="card">
           <div class="thumb" aria-hidden="true"></div>
           <div class="content">
-            <h3>Personal Homepage</h3>
+            <h3>This Website</h3>
             <p class="subtle">My first semantic HTML + CSS page.</p>
             <div class="row">
               <span class="chip">HTML</span>
@@ -152,7 +160,7 @@
       <h2 class="section-title"><span class="tiny"></span> Experience(s)</h2>
       <div class="grid">
         <article class="card">
-          <div class="thumb" aria-hidden="true"></div>
+          <div class="thumb1" aria-hidden="true"></div>
           <div class="content">
             <h3>On Job Training at PT. Telenetina STU</h3>
             <p class="subtle">"PKL" Experience. Focusing on Aeromodelling production and wind turbine power plant. Gained knowledge about Safety in work environment, Aerodynamic, Hand tools.</p>
@@ -161,7 +169,7 @@
           </div>
         </article>
         <article class="card">
-          <div class="thumb" aria-hidden="true"></div>
+          <div class="thumb2" aria-hidden="true"></div>
           <div class="content">
             <h3>On Job Training at PT ASI Pudjiastuti Aviation</h3>
             <p class="subtle">Experience as Ground Crew and Airport service staff at Pangandaran. Gained knowledge about basic aircraft handling, Airport service, DG, etc.</p>
@@ -199,7 +207,7 @@
 
   <footer>
     <div class="container">
-      <p>© <span id="year"></span> Arga — Built with love, mint gradients, and curiosity.</p>
+      <p>© <span id="year"></span> Arga — Built with love, and curiosity.</p>
     </div>
   </footer>
 
